@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <sydio.h>
 int main(void)
 {
 	int n;
