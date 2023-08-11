@@ -3,11 +3,6 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-
-/*
- * code defind random number if
- * is positive or negative or zero
- **/
 int main(void)
 {
 	int n;
@@ -18,8 +13,8 @@ int main(void)
 	if (n < 0)
 		printf("%d is negative", n);
 	else if (n == 0)
-		printf("%d is zero", n)
+		printf("%d is zero", n);
 	else
 		printf("%d is positive", n);
-return (0);
+	return (0);
 }
