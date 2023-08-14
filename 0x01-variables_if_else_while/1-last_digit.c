@@ -19,8 +19,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	y = n;
-	n = n >> 1;
 	n = n << 1;
+	n = n >> 1;
 	num = y - n;
 	if (num > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", y, num);
