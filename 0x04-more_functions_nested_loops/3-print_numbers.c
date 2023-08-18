@@ -1,0 +1,13 @@
+#include <stdio.h>
+/**
+ * print_numbers - write numbers
+ * Return: doesn't exist
+ */
+void print_numbers(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+		putchar('0' + i);
+	putchar('\n');
+}
