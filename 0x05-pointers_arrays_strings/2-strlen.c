@@ -4,6 +4,7 @@
 /**
  * _strlen - function
  * @s: parameter
+ * Return: strlen
  */
 int _strlen(char *s)
 {
