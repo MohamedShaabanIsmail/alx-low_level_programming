@@ -5,6 +5,7 @@
  * _strcpy - function
  * @dest: parameter1
  * @src: parameter2
+ * Return: strcpy
  */
 char *_strcpy(char *dest, char *src)
 {
