@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *_strcpy - function
+ * _strcpy - function
  * @dest: parameter1
  * @src: parameter2
  */
